@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Calculator with modulo, exponent, prime</h1>
+    <p> Enter your two numbers in the boxes and choose your function</p> 
+    <form>
+        <label for="what is your first number">First Number:</label><br>
+        <input type="number" id="fnumber" name="fnumber"><br>
+        <label for="what is your last number">Last Number:</label><br>
+        <input type="number" id="lnumber" name="lnumber">
+        <br>
+        
+        <br>
+        <br/>
+        <div class="form-grp">
+            
+            <input type="button" name="button" id="button1" onclick="myfunctionadd()" value="Add" />
+            <input type="button" name="button" id="button2" onclick="myfunctionminus()" value="Minus" /> 
+            <input type="button" name="button" id="button3" onclick="myfunctionmultiply()" value="Multiply" /> 
+            <input type="button" name="button" id="button4" onclick="myfunctiondivide()" value="Divide" /> 
+            <input type="button" name="button" id="button5" onclick="myfunctionmodulo()" value="Modulo" /> 
+            <input type="button" name="button" id="button6" onclick="myfunctionexponent()" value="Exponent" />
+            <input type="button" name="button" id="button7" onclick="myfunctionprime()" value="?Prime" />
+
+        </div>
+        <br>
+        <input type="text" name="textbox3" id="textbox3" readonly="true" />
+        <br>
+        <input type="button" name="button2" id="button2" onclick="reset()" value="Reset" />
+        
+    </form>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
